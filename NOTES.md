@@ -36,3 +36,4 @@ fn main() {
 
 ![A difference between C and Rust about statements and expressions](imgs_for_notes/Screenshot%202024-07-03%20at%202.22.34 PM.png) A difference between C and Rust
 
+Labelled loops just make sense! I don't know how to explain it. Then I started thinking if C has a loop label feature, and it doesn't! [Reference](https://stackoverflow.com/questions/45825935/is-there-such-a-thing-as-labeled-or-unlabeled-break-in-c). From the same link, I learned Java has the loop label feature. To achieve the same effect, C has the `goto` feature. And after [Dijkstra's famous paper](http://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf), `goto` hasn't seen a lot of love from other programming languages.
